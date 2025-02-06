@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oscarsaaj</title>
+    <link rel="shortcut icon" href="media/logo.svg" type="image/svg" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link href="css/css-gg.css" rel="stylesheet" />
+    <script src="js/site.js"></script>
+  </head>
+  <body>
+    <div class="main-content">
+      <aside>
+        <div class="profile">
+            <img src="media/yo.jpg" id="photo-profile" class="my-photo" />
+            <div>
+                <h1 class="title">Oscar Sanchez</h1>
+                <div class="badge-profile">Insano</div>
+                <div class="social">
+                  <a href="https://www.facebook.com/share/1H9XQgzAYg/?mibextid=wwXIfr" target="_blank"><i class="gg-facebook"></i></a>
+                  <a href="https://www.instagram.com/oscar.saaj?igsh=NGU4M2hjYndxYzlo" target="_blank"><i class="gg-instagram"></i></a>
+                     <a href="pokemon.com" target="_blank"><i class="gg-pokemon"></i></a>
+                </div>
+            </div>
+            <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;&nbsp;6 noviembre 2004</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;&nbsp;Puebla, Mexico</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i><a href="oscarjdsv@gmail.com">&nbsp;&nbsp;oscarjdsv@gmail.com</a>
+                        </li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;2211990702</li>
+                        <li class="contacts-block-item"><i class="gg-profile"></i> oscar.saaj</a></li>
+                    </ul>
+
+                    <a class="btn" href="media/cv-oscarsaaj.pdf">Download CV</a>
+            </div>
+        </div>
+    </aside>
+      <!-- Contenido principal -->
+      <section class="resume">
+        <!-- Menú -->
+        <header>
+          <div class="menu-circle">
+            <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+          </div>
+          <div class="inner-menu js-menu">
+            <ul class="nav">
+              <li class="nav-item"><a href="index.html">Acerca de</a></li>
+              <li class="nav-item"><a href="#portfolio">Portafolio</a></li>
+            </ul>
+          </div>
+        </header>
+
+  
+
+        <!-- Portafolio -->
+        <div id="portfolio">
+          <h2 class="title bordered">Portafolio</h2>
+          <div class="portfolio">
+            <img src="media/titulo.png" onclick="showImage(this)">
+            <img src="media/base d datos no relacionales.png" onclick="showImage(this)">
+            <img src="media/Dundamentos de computo en la nube.png" onclick="showImage(this)">
+           
+          </div>
+          
+          <div class="modal" id="preview">
+            <button class="close-modal" onclick="cerrarModal()"><i class="gg-close"></i></button>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      
+    </footer>
+  </body>
+</html>
